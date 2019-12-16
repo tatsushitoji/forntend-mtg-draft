@@ -1,0 +1,17 @@
+{
+  "name": "forntend-mtg-draft",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tatsushitoji/forntend-mtg-draft.git",
+  "author": "Tatsushi Toji <28854043+tatsushitoji@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@now/node": "1.2.1",
+    "chrome-aws-lambda": "2.0.1",
+    "puppeteer-core": "2.0.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer-core": "2.0.0",
+    "now": "16.7.0"
+  }
+}
