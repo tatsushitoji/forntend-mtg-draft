@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MAIL_ADRESS": "@mail_adress",
+    "PASSWORD": "@password"
+  },
+  "regions": ["hnd1"]
+}
