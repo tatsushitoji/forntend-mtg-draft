@@ -12,7 +12,7 @@ export default async (req: NowRequest, res: NowResponse) => {
     args: chrome.args,
     executablePath: process.env.NODE_ENV === 'development' ? exePath : await chrome.executablePath,
     headless: chrome.headless,
-})
+  })
   const page = await browser.newPage()
   await page.goto('https://hackmd.io/login')
   await page.type('input[name="email"]', process.env.MAIL_ADRESS)
